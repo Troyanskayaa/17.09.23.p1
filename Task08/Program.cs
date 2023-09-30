@@ -6,19 +6,12 @@
 
 Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int count = 1 * n;
-if (count % 2 == 0)
+int count = 0 * n;
+while (count < n)
 {
+    count = count + 1;
+    if (count % 2 == 0)
+    {
     Console.Write($"{count} ");
+    }
 }
-else if (count % 2 != 0)
-{
-    Console.Write("");
-}
-
-
-// while(count <= n)
-// {
-//     Console.Write($"{count} ");
-//     count = count + 1;
-// }
