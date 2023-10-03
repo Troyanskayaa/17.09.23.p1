@@ -6,7 +6,7 @@
 
 Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int count = 0 * n;
+int count = 0;
 while (count < n)
 {
     count = count + 1;

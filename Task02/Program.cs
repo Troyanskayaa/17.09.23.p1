@@ -11,11 +11,11 @@ Console.WriteLine("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA > numberB)
 {
-    Console.WriteLine($"{numberA} -> Максимальное число:");
-    Console.WriteLine($"{numberB} -> Минимальное число:");
+    Console.WriteLine($"{numberA} -> Максимальное число");
+    Console.WriteLine($"{numberB} -> Минимальное число");
 }
 else if (numberA < numberB)
 {
-    Console.WriteLine($"{numberB} -> Максимальное число:");
-    Console.WriteLine($"{numberA} -> Минимальное число:");
+    Console.WriteLine($"{numberB} -> Максимальное число");
+    Console.WriteLine($"{numberA} -> Минимальное число");
 }
