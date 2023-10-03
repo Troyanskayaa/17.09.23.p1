@@ -13,5 +13,5 @@ if (number % 2 == 0)
 }
 else if (number % 2 != 0)
 {
-    Console.WriteLine($"{number} -> Нечетное");
+    Console.WriteLine($"{number}");
 }
