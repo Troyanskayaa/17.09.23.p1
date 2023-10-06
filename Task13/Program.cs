@@ -6,8 +6,7 @@
 // 32679 -> 6
 
 Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine());
-// int result = Convert.ToInt32(Console.ReadLine());
+int umbern = Convert.ToInt32(Console.ReadLine());
 
 int thirdDigit(int number)
 {

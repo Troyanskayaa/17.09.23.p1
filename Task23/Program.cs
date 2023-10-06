@@ -11,7 +11,7 @@ void TableCub(int number)
     int count = 1;
     while (count <= number)
     {
-        Console.WriteLine($"{count} -> {(count * count) * count}");
+        Console.WriteLine($"{count, 3} -> {(count * count) * count, 6}");
         count += 1;
     }
 }
